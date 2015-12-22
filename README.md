@@ -8,7 +8,7 @@ The data for this analysis is provided by: **http://www.pro-football-reference.c
 
 ##Method
 
-Using R software we can analyze various correlations between the explanatory variables and response variables using linear regression. Linear regression seemed to be a signifcant model for testing many of the explanatory variables. We found that many p-values were less than an alpha of .05 when testing different explanatory variables. Linear regression was a correct fit for many of the analyses. This was proven due to residual analysis of the data points, making linear regression a significant machine learning model for this dataset. Below are the following variables used for linear regression testing.
+Using R software we can analyze various correlations between the explanatory variables and response variables using linear regression. Using the web app, we can change the minimum year for analysis, the predictor, and lastly the response variable. Linear regression seemed to be a signifcant model for testing many of the explanatory variables. We found that many p-values were less than an alpha of .05 when testing different explanatory variables. Linear regression was a correct fit for many of the analyses. This was proven due to residual analysis of the data points, making linear regression a significant machine learning model for this dataset. Below are the following variables used for linear regression testing.
 
 **Predictors**
 
@@ -70,3 +70,5 @@ Results show that all of the predictor variables were significant in correlation
 6. Penalty Yards
 
 The most accurate model (highest R-squared value) for determining the number of losses would be to using *passing yards per attempt*, while the most accurate model for determining the number of wins would be using *points for* as the predictor variable.
+
+I have tested linear models on data points since the year 1970. The more data we have, the more accurate out prediction should generally become. However, the game of football has changed over time due to rules changing and different way offenses and defenses are ran. Using an earlier year for analysis can affect the significance of the regression model.
