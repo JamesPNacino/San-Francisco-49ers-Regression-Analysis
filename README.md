@@ -58,7 +58,7 @@ Results show that all of the predictor variables were significant in correlation
 3. Penalties
 4. Penalty Yards
 
-I was not surprised to see *pass attempts* not a signinficant predictor towards the number of wins because teams usually pass more when they are behind in a game. However, I am surprised to see *yards per rush attempt*, *penalties*, and *penalty yards* as not a significant predictor in determining the number of wins you will have each year.
+I was not surprised to see *pass attempts* as a non a signinficant predictor towards the number of wins because teams usually pass more when they are behind in a game. However, I was surprised to see *yards per rush attempt*, *penalties*, and *penalty yards* as not a significant predictor in determining the number of wins you will have each year.
 
 Results show that all of the predictor variables were significant in correlation to the number of **losses** except for the following predictor variables (these were not significant becuase of a p-value greater than .05): 
 
