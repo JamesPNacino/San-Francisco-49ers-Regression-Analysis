@@ -11,6 +11,7 @@ The data for this analysis is provided by: **http://www.pro-football-reference.c
 Using R software we can analyze various correlations between the explanatory variables and response variables using linear regression. Linear regression seemed to be a signifcant model for testing many of the explanatory variables. We found that many p-values were less than an alpha of .05 when testing different explanatory variables. Linear regression was a correct fit for many of the analyses. This was proven due to residual analysis of the data points, making linear regression a significant machine learning model for this dataset.
 
 **Predictors**
+
 1. Points For - Total points scored each year
 2. Total Yards - Total yards accumulated each year
 3. Offensive Plays - Total amount of offensive plays ran each year
@@ -34,6 +35,7 @@ Using R software we can analyze various correlations between the explanatory var
 21. Penalty Yards - Total penalty yards accumulated each year
 
 **Response Variables**
+
 1. Wins - Total amount of wins each year
 2. Losses - Total amount of losses each year
 
