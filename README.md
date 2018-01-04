@@ -1,16 +1,25 @@
 # San-Francisco-49ers-Regression-Analysis
 
-##Introduction
+## Introduction
 Linear Regression Analysis to find the correlation between various predictors and the number of wins/losses (response variable) for the San Francisco 49ers Professional Football Team since the year 1970. **Click this link to go to the web application:** [**Click Here!!**](http://jnacino.shinyapps.io/NFL_49ers_Regression_Analysis)
 
 The data for this analysis is provided by: **http://www.pro-football-reference.com/**
 
+## Install Packages
 
-##Method
+To implement this project yourself you must download the following packages:
+
+* Shiny
+* ggplot2
+* XML
+
+You must also have R and Rstudio installed.
+
+## Method
 
 Using R software we can analyze various correlations between the explanatory variables and response variables using linear regression. Using the web app, we can change the minimum year for analysis, the predictor, and lastly the response variable. Linear regression seemed to be a signifcant model for testing many of the explanatory variables. We found that many p-values were less than an alpha of .05 when testing different explanatory variables. Linear regression was a correct fit for many of the analyses. This was proven due to residual analysis of the data points, making linear regression a significant machine learning model for this dataset. Below are the following variables used for linear regression testing.
 
-**Predictors**
+**Predictors - Data**
 
 1. Points For - Total points scored each year
 2. Total Yards - Total yards accumulated each year
@@ -40,7 +49,7 @@ Using R software we can analyze various correlations between the explanatory var
 2. Losses - Total amount of losses each year
 
 
-##Testing
+## Testing
 
 Using the web application that I made, [**Link**](http://jnacino.shinyapps.io/NFL_49ers_Regression_Analysis), I was able to test the various predictors and their correlation to the response variables. Using residual analyses, many of the predictors' residuals seemed randomly scattered when plotted. Also, using a histogram and a normal-qq plot, I analyzed the fit of the residuals to see if they had followed a normal distribution. Using all three methods: the scatterplot, histogram, and normal-qq plot of the residuals, the datapoints for all of the predictors seemed to be random and normally distributed when tested against both response variables, wins and losses (though some datapoints from various predictors fit the random normal distribution better than others). Due to residual analysis I was able to conclude that linear testing would be a signifcant machine learning model to use for testing the data. 
 
@@ -49,7 +58,7 @@ When running the linear model analysis through R software, it reports many value
 Using data all the way from 1970, I fitted a regression model using different predictors against the response variable.
 
 
-##Results and Conclusion
+## Results and Conclusion
 
 Results show that all of the predictor variables were significant in correlation to the number of **wins** except for the following predictor variables (these were not significant becuase of a p-value greater than .05): 
 
