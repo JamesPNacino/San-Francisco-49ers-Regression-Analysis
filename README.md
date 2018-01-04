@@ -15,6 +15,10 @@ To implement this project yourself you must download the following packages:
 
 You must also have R and Rstudio installed.
 
+## Run
+
+In the R environment (to run and implement this web application yourself), you must have 'server.R' and 'ui.R' files open. Then you will have an option to run the web application.
+
 ## Method
 
 Using R software we can analyze various correlations between the explanatory variables and response variables using linear regression. Using the web app, we can change the minimum year for analysis, the predictor, and lastly the response variable. Linear regression seemed to be a signifcant model for testing many of the explanatory variables. We found that many p-values were less than an alpha of .05 when testing different explanatory variables. Linear regression was a correct fit for many of the analyses. This was proven due to residual analysis of the data points, making linear regression a significant machine learning model for this dataset. Below are the following variables used for linear regression testing.
